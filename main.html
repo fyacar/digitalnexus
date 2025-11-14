@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DigitalNexus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<style>
+.rubik-texto {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 380;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
+body { margin: 0; padding: 0;text-align: center; }
+p{max-width: 60%;}
+header { height:  220px; width: 100%;background-color: hsl(0, 0%, 0%); color: #fff; text-align: center; background-image: url("../imgs/DigitalNexus.png"); background-size: 100% auto; background-position:center;}
+nav { background: #000000; padding: 0.7rem;}
+nav a { color: #fff; margin-right: 1rem; text-decoration: none; margin-left: 10px; }
+a:hover {color: rgb(70, 165, 194);}
+section { padding: 2rem; border-bottom: 1px solid #eee; }
+h2 { color: #333; }
+footer { padding: 1rem; background: #f2f2f2;   width: 100%;
+  max-width: 100%; text-align: right;}
+.logo{
+  border-radius: 50px;
+  width: 350px;
+}
+.equipoimg{
+  width: 35%;
+}
+.historiaimg{
+  width: 35%;
+}
+.serviciosimg{
+  margin-top: 35px;
+  width: 35%;
+}
+.fuente {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 14;  
+}
+section {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+section p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+.carrusel {
+  margin-top: 35px;
+  width: 100%;   
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.carrusel-inner {
+  display: flex;
+  width: 35%; 
+  animation: deslizar 14s infinite;
+}
+
+.carrusel-inner img {
+  width: 80%;  
+  flex-shrink: 0;
+}
+
+.contacto {
+  width: 80%;
+  max-width: 500px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacto input,
+.contacto textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contacto button {
+  padding: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contacto button:hover {
+  background: #555;
+}
+
+.estado {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+@keyframes deslizar {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+<body class="rubik-texto">
+
+<header>
+
+<!-- <h1 class="title">DigitalNexus</h1> -->
+</header>
+
+
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#sobre">Sobre Nosotros</a>
+<a href="#servicios">Servicios</a>
+<a href="#blog">Blog</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+
+<section id="inicio">
+<h2>INICIO</h2>
+<p>Bienvenido a DIGITALNEXUS.</p>
+<p>Impulsamos tu presencia online con páginas web modernas, rápidas y hechas a tu medida. Convierte más clientes con una imagen digital que realmente te represente.</p>
+<div class="carrusel">
+  <div class="carrusel-inner">
+    <img src="imgs/imagen 1.png" alt="Imagen 1">
+    <img src="imgs/imagen 2.jpg" alt="Imagen 2">
+    <img src="imgs/imagen 3.jpg" alt="Imagen 3">
+    <img src="imgs/imagen 4.png" alt="Imagen 1">
+    <img src="imgs/imagen 5.png" alt="Imagen 1">
+  </div>
+</div>
+</section>
+
+
+<section id="sobre">
+<h2>SOBRE NOSOTROS</h2>
+<img class="logo" src="imgs/unnamed.png">
+<p>Somos un equipo apasionado por el diseño y la tecnología. Nos dedicamos a crear sitios web que no solo se ven bien, sino que también funcionan para tus objetivos. Escuchamos, proponemos y construimos soluciones digitales que impulsan tu marca. Nuestro compromiso es simple: ayudarte a destacar en internet sin complicaciones.</p>
+
+<h3>Nuestro equipo</h3>
+<p>Nuestro equipo está formado por diseñadores, desarrolladores y especialistas digitales comprometidos con ofrecer soluciones de alta calidad. Combinamos experiencia, creatividad y una visión estratégica para convertir cada proyecto en un sitio web funcional, atractivo y orientado a resultados.</p>
+<p>Conoce a las personas detrás de nuestro trabajo.</p>
+ <img src="imgs/nosotros.png" class="equipoimg">
+<h3>Historia</h3>
+ <img src="imgs/historia.png" class="historiaimg">
+<p>
+Nuestra historia comenzó con una clara visión: ofrecer soluciones digitales de valor para empresas, emprendedores y marcas en un entorno competitivo. Desde el inicio, comprendimos que una web es más que una vitrina digital; es una herramienta para generar oportunidades, confianza y comunicar la esencia del negocio.
+</p>
+<p>
+En nuestros primeros años, creamos pequeñas webs para proyectos locales, aprendiendo y adoptando nuevas tecnologías. Cada cliente fue un desafío y una oportunidad de crecimiento.
+</p>
+<p>
+La demanda y el portafolio se expandieron, llevando a metodologías más sólidas en diseño, desarrollo y UX. Hoy, somos un equipo multidisciplinario que maneja proyectos completos: desde planificación estratégica, diseño y programación, hasta SEO y soporte.
+</p>
+<p>
+Nuestra historia es la evolución de una idea que creció con la transformación digital, manteniendo siempre el propósito de ayudar a cada cliente a construir una presencia online sólida y profesional.
+</p>
+</section>
+
+
+<section id="servicios">
+<h2>SERVICIOS</h2>
+    
+<a href="#">Consultoría</a> ||
+<a href="#">Desarrollo web</a> ||
+<a href="#">Soporte técnico</a>
+<br>
+<img src="imgs/servicios.png" alt="Imagen 1" class="serviciosimg">
+</section>
+
+
+<section id="blog">
+<h2>BLOG</h2>
+<p>Artículos recientes y categorías del blog.</p>
+</section>
+
+
+<section id="contacto">
+<h2>CONTACTO</h2>
+<form id="formContacto" class="contacto">
+  <label>Nombre:</label>
+  <input type="text" id="nombre" placeholder="Tu nombre">
+
+  <label>Email:</label>
+  <input type="email" id="email" placeholder="Tu correo">
+
+  <label>Mensaje:</label>
+  <textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+
+  <button type="submit">Enviar</button>
+
+  <p id="estado" class="estado"></p>
+</form>
+
+</section>
+
+
+<footer>
+<p>© 2025 DigitalNexus</p>
+</footer>
+
+
+<script>
+
+document.getElementById("formContacto").addEventListener("submit", function(e) {
+  e.preventDefault();
+  document.getElementById("estado").textContent = "¡Mensaje enviado!";
+});
+</script>
+</body>
+</html>
